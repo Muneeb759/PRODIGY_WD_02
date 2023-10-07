@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Montserrat:wght@300&family=Playfair+Display:wght@500&family=Poppins:wght@200&family=Young+Serif&display=swap');
+
+body {
+    font-family: Arial, serif;
+    background-color: rgb(223, 223, 223);
+    font-family: 'Young Serif', serif;
+}
+
+.text{
+    color: rgb(0, 0, 0);
+    padding-top: 6rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.stopwatch-display{
+    justify-content: center;
+    align-items: center;
+    font-family: serif;
+    display: flex;
+    font-size: 8rem;
+}
+
+.button {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 1rem;
+    padding: 1rem ;
+}
+
+.lap-times{
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    padding: 0.5rem 2rem;
+    margin: 1rem;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border: 2px solid black;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+@media screen and (max-width : 470px){
+    .text{
+        font-size:1.5rem ;
+    }
+
+    .stopwatch-display{
+        font-size: 4rem;
+    }
+
+    .button{
+        padding: 10px;
+        margin: 10px;
+        flex-direction: column;
+    }
+}
